@@ -23,7 +23,7 @@ while selection != 'q':
         findTitle = input("What movie are you looking for?")
         for movie in movies:
             if movie['title'] == findTitle:
-                print("Yeah, it's here")
+                print("It actually is here!")
     else:
         print('Unknown command. Please try again.')
 
